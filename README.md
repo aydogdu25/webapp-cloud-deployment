@@ -2,21 +2,21 @@
 
 Bu repo, **Docker** ve **Google Cloud Platform (GCP)** kullanılarak basit bir web uygulamasının sanallaştırılması ve buluta dağıtılmasını konu alan projeyi içermektedir.  
 
-## 📌 Proje Hakkında  
+## Proje Hakkında  
 Bu çalışmada:  
 - Bulut bilişim ve sanallaştırma teknolojileri açıklanmıştır.  
 - Basit bir web uygulaması (direnç renk kodlarına göre değer hesaplama sitesi) geliştirilmiştir.  
 - Docker kullanılarak uygulama container içine alınmış ve yerel ortamda test edilmiştir.  
 - GCP kullanılarak buluta dağıtım yapılmıştır.  
 
-## 🚀 Kullanılan Teknolojiler  
+## Kullanılan Teknolojiler  
 - **HTML, CSS, JavaScript** → Web uygulaması geliştirme  
 - **Docker** → Container oluşturma ve sanallaştırma  
 - **Nginx** → Web sunucusu  
 - **Google Cloud Platform (GCP)** → Bulut dağıtımı  
 - **Cloud Run & Artifact Registry** → Uygulamanın bulutta çalıştırılması  
 
-## 🔧 Kurulum ve Çalıştırma  
+## Kurulum ve Çalıştırma  
 ### 1. Docker İmajı Oluşturma  
 ```bash
 docker build -t proje-imaj .
