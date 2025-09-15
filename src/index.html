@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistor Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<link rel="icon" href="res.ico" type="image/x-icon">
+	<script src="script.js"></script>
+</head>
+<body>
+
+
+
+<div id="banner"><b>Res Calc v1.0</b></div>
+    <div id="resistor-container">
+        <div id="band1" class="band"></div>
+        <div id="band2" class="band"></div>
+        <div id="band3" class="band"></div>
+        <div id="band4" class="band"></div>
+    </div>
+	
+    <div id="color-selector">
+		
+        <select id="select1" onchange="changeColor('band1', this.value)">
+            <option value="black" selected disabled hidden style="background-color: #ff0000; color: white;">1.renk</option>
+            <option value="brown" style="background-color: brown; color: white;">Kahverengi</option>
+			<option value="red" style="background-color: red; color: white;">Kırmızı</option>
+			<option value="orange" style="background-color: orange; color: white;">Turuncu</option>
+			<option value="yellow" style="background-color: yellow; color: black;">Sarı</option>
+			<option value="green" style="background-color: green; color: white;">Yeşil</option>
+			<option value="blue" style="background-color: blue; color: white;">Mavi</option>
+			<option value="purple" style="background-color: purple; color: white;">Mor</option>
+			<option value="gray" style="background-color: gray; color: white;">Gri</option>
+			<option value="white" style="background-color: white; color: black;">Beyaz</option>
+            
+        </select>
+        <select id="select2" onchange="changeColor('band2', this.value)">
+			<option value="black" selected disabled hidden style="background-color: #ff0000; color: white;">2.renk</option>
+			<option value="black" style="background-color: black; color: white;">Siyah</option>
+			<option value="brown" style="background-color: brown; color: white;">Kahverengi</option>
+			<option value="red" style="background-color: red; color: white;">Kırmızı</option>
+			<option value="orange" style="background-color: orange; color: white;">Turuncu</option>
+			<option value="yellow" style="background-color: yellow; color: black;">Sarı</option>
+			<option value="green" style="background-color: green; color: white;">Yeşil</option>
+			<option value="blue" style="background-color: blue; color: white;">Mavi</option>
+			<option value="purple" style="background-color: purple; color: white;">Mor</option>
+			<option value="gray" style="background-color: gray; color: white;">Gri</option>
+			<option value="white" style="background-color: white; color: black;">Beyaz</option>
+        </select>
+	
+        <select id="select3" onchange="changeColor('band3', this.value)">
+            <option value="black" selected disabled hidden style="background-color: #ffffff; color: white;">3.renk</option>
+            <option value="black" style="background-color: black; color: white;">Siyah</option>
+			<option value="brown" style="background-color: brown; color: white;">Kahverengi</option>
+			<option value="red" style="background-color: red; color: white;">Kırmızı</option>
+			<option value="orange" style="background-color: orange; color: white;">Turuncu</option>
+			<option value="yellow" style="background-color: yellow; color: black;">Sarı</option>
+			<option value="green" style="background-color: green; color: white;">Yeşil</option>
+			<option value="blue" style="background-color: blue; color: white;">Mavi</option>
+			<option value="purple" style="background-color: purple; color: white;">Mor</option>
+			<option value="gray" style="background-color: gray; color: white;">Gri</option>
+			<option value="white" style="background-color: white; color: black;">Beyaz</option>
+        </select>
+
+        <select id="select4" onchange="changeColor('band4', this.value)">
+            <option value="silver" selected disabled hidden style="background-color: #ff0000; color: white;">Tolerans</option>
+			<option value="brown" style="background-color: brown; color: white;">Kahverengi</option>
+			<option value="red" style="background-color: red; color: white;">Kırmızı</option>
+			<option value="orange" style="background-color: orange; color: white;">Turuncu</option>
+			<option value="yellow" style="background-color: yellow; color: black;">Sarı</option>
+			<option value="blue" style="background-color: blue; color: white;">Mavi</option>
+			<option value="purple" style="background-color: purple; color: white;">Mor</option>
+			<option value="gray" style="background-color: gray; color: white;">Gri</option>
+            <option value="gold" style="background-color: #ffd700; color: black;">Altın</option>
+            <option value="silver" style="background-color: #c0c0c0; color: black;">Gümüş</option>
+            <option value="transparent" style="background-color: transparent; color: black;">Renksiz</option>
+        </select>
+    </div><br>
+	
+	<label><b>Direnç Değeri:</b></label>
+	<div id="goster" style="display: none;"></div>
+	<footer>
+        Bu proje, Bulut Bilişim Dersi için Kadir AYDOĞDU tarafından hazırlanmıştır. &copy
+    </footer>
+	
+</body>
+</html>
