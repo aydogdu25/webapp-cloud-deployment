@@ -1,6 +1,6 @@
 # Bulut Bilişim ve Sanallaştırma Projesi  
 
-Bu repo, **Docker** ve **Google Cloud Platform (GCP)** kullanılarak basit bir web uygulamasının sanallaştırılması ve buluta dağıtılmasını konu alan projeyi içermektedir.  
+**Docker** ve **Google Cloud Platform (GCP)** kullanılarak basit bir web uygulamasının sanallaştırılması ve buluta dağıtılmasını konu alan projeyi içermektedir.  
 
 ## Proje Hakkında  
 Bu çalışmada:  
